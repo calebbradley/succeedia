@@ -1,0 +1,18 @@
+body {
+  background-color: currentcolor;
+}
+h4 {
+  color: grey;
+}
+h3 {
+  color: grey;
+}
+p {
+  color: whitesmoke;
+}
+.jumbotron p {
+  color: grey;
+}
+.col-lg-6 {
+  width: 100%;
+}

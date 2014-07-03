@@ -51,6 +51,10 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    background-image:url("images/cliff.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-position: -20px;
 }
 
 .jumbotron .btn {

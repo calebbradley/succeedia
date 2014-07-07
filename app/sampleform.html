@@ -27,15 +27,9 @@
                 <ul class="nav nav-pills pull-right">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="sampleform.html">Contact</a></li>
                 </ul>
                 <h3 class="text-muted">succedia</h3>
-            </div>
-
-            <div class="jumbotron">
-                <h1>Jan Pizzuto</h1>
-                <p class="lead">Inspiration for Success!</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
             </div>
 
             <div class="row marketing">
@@ -45,12 +39,10 @@
 
                 </div>
                 
-            </div>
-
-        </div>
     <!-- STEP 1: Put the full URL to formmail.php on your website in the 'action' value. -->
-<form method="post" action="http://127.0.0.1:9000//formmail.php" name="SampleForm">
-    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
+                <div class="col-lg-6">
+                    <form method="post" action="http://127.0.0.1:9000//formmail.php" name="SampleForm">
+                    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
 
     <!-- STEP 2: Put your email address in the 'recipients' value.
                  Note that you also have to allow this email address in the
@@ -99,10 +91,12 @@
         </td>
     </tr>
     <tr>
-        <td><input type="submit" value="Submit" /></td>
+        <td><input class="contactbutton" type="submit" value="Submit" style="border-radius: 5px;" /></td>
     </tr>
     </table>
 </form>
+</div>
+</div>
             <div class="footer">
                 <p>♥ from <a href="https://www.webporch.com/">Webporch.com</a></p>
             </div>

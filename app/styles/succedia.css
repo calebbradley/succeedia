@@ -1,7 +1,26 @@
 body {
   background-color: currentcolor;
   transition: all .15s ease;
-
+}
+.accordion {
+  margin: 50px;
+}   
+dt, dd {
+  padding: 10px;
+  border-bottom: 0;  
+}
+a {
+  font-weight: bold;
+}  
+dd {
+  border-top: 0; 
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 12px;
+  letter-spacing: 1px;
+  border-top: 1px solid white;
+  position: relative;
+  top: -1px;
 }
 h4 {
   color: grey;

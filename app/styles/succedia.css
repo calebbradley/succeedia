@@ -21,6 +21,7 @@ dd {
   border-top: 1px solid white;
   position: relative;
   top: -1px;
+  display: none;
 }
 h4 {
   color: grey;
@@ -30,12 +31,6 @@ h3 {
 }
 p {
   color: whitesmoke;
-}
-.jumbotron p {
-  color: grey;
-}
-.jumbotron{
-  background: src=();
 }
 a:active {
   text-decoration: none;
@@ -63,9 +58,14 @@ a:hover {
   color: #FAFAFA;
   font-weight: 700;
   text-decoration: none;
-  background: rgb(255, 198, 0);
+  /*background: rgb(255, 198, 0);*/
 }
-
+.jumbotron .btn {
+  box-shadow: 1px 0px 3px 0px black !important;
+}
+.jumbotron .btn:active{
+  box-shadow: none !important;
+}
 .bigbutton:hover {
   transition: all .15s ease;
   background-color: rgb(326, 301, 71);

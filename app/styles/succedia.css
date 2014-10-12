@@ -2,6 +2,29 @@ body {
   background-color: currentcolor;
   transition: all .15s ease;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+  padding-top: 12px;
+}
+.container {
+  min-height: 800px;
+}
+.header {
+  border-bottom: none;
+}
+.footer {
+  border-top: none;
+}
+.blogTitle{
+  color: #EAEAEA;
+  font-size: 21px;
+}
 .accordion {
   margin: 50px;
 }   
@@ -60,6 +83,14 @@ a:hover {
   text-decoration: none;
   /*background: rgb(255, 198, 0);*/
 }
+.jumbotron{
+  min-height: 612px;
+  background-color: none !important;
+}
+.jumbotron h1 {
+  color: whitesmoke;
+  font-size: 5em;
+}
 .jumbotron .btn {
   box-shadow: 1px 0px 3px 0px black !important;
 }
@@ -73,6 +104,7 @@ a:hover {
 
 @media screen and (min-width: 768px){
   .container {
-    max-width: 1230px; 
+    max-width: 1230px;
+    min-height: 800px; 
   }
 }

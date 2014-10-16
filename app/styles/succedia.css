@@ -118,7 +118,7 @@ body {
   min-height: 800px;
 }
 .header {
-  border-bottom: none;
+  /*border-bottom: none;*/
 }
 .footer {
   border-top: none;

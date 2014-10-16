@@ -4648,6 +4648,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron h1 {
   line-height: 1;
+  margin-top: 130px;
 }
 .jumbotron p {
   line-height: 1.4;
@@ -4665,7 +4666,7 @@ a.list-group-item.active > .badge,
     padding-right: 60px;
   }
   .jumbotron h1 {
-    font-size: 63px;
+    /*font-size: 63px;*/
   }
 }
 

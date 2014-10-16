@@ -24,9 +24,10 @@
             var allPanels = $('.accordion > dd').hide(00000001);
     
             $('.accordion > dt > a').click(function() {
-                allPanels.slideUp();
+                allPanels.slideUp(); 
             $(this).parent().next().slideDown();
             return false;
+
             });
 
             });
@@ -493,6 +494,7 @@ I started smoking at the age of 14 and quit shortly before I turned 20.  Why did
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="jquery.js"></script>
+        <script src="require.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 

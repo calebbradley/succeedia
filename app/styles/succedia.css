@@ -13,7 +13,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url("images/glasses_computer.jpg");
+    /*background-image: url("images/glasses_computer.jpg");*/
     background-size: cover;
     background-attachment: fixed;
 }
